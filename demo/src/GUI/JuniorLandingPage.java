@@ -50,7 +50,6 @@ public class JuniorLandingPage {
                 })
                 .collect(Collectors.toCollection(ArrayList::new)));
         tasksListJunior.setItems(tasks);
-        tasksListJunior.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
     }
 
     public void initialize() throws Exception {
@@ -78,5 +77,9 @@ public class JuniorLandingPage {
             tasksListJunior.getItems().remove(t);
             tasksListJunior.getSelectionModel().clearSelection();
         }
+    }
+
+    public void juniorLogout(ActionEvent actionEvent) throws Exception {
+        m.changeScene("/GUI/Login.fxml", "Login page", 320, 270);
     }
 }

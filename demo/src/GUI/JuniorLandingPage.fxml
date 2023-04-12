@@ -9,17 +9,17 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.JuniorLandingPage">
    <children>
-      <ListView fx:id="tasksListJunior" layoutX="32.0" layoutY="69.0" prefHeight="191.0" prefWidth="734.0" style="-fx-selection-bar-non-focused: green;" />
-      <Label layoutX="32.0" layoutY="31.0" text="Tasks">
+      <ListView fx:id="tasksListJunior" layoutX="32.0" layoutY="82.0" prefHeight="191.0" prefWidth="734.0" style="-fx-selection-bar-non-focused: green;" />
+      <Label layoutX="32.0" layoutY="44.0" text="Tasks">
          <font>
             <Font size="17.0" />
          </font></Label>
-      <TextArea fx:id="descriptionArea" editable="false" layoutX="32.0" layoutY="331.0" prefHeight="191.0" prefWidth="578.0" />
-      <Label layoutX="32.0" layoutY="296.0" text="Task Description">
+      <TextArea fx:id="descriptionArea" editable="false" layoutX="32.0" layoutY="334.0" prefHeight="158.0" prefWidth="578.0" />
+      <Label layoutX="32.0" layoutY="299.0" text="Task Description">
          <font>
             <Font size="17.0" />
          </font></Label>
-      <Button fx:id="doneJuniorButton" layoutX="673.0" layoutY="496.0" mnemonicParsing="false" onAction="#doneJunior" style="-fx-background-color: red;" text="Mark as done">
+      <Button fx:id="doneJuniorButton" layoutX="673.0" layoutY="464.0" mnemonicParsing="false" onAction="#doneJunior" style="-fx-background-color: red;" text="Mark as done">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
@@ -28,5 +28,6 @@
             <Font size="15.0" />
          </font>
       </Label>
+      <Button fx:id="juniorLogoutButton" layoutX="708.0" layoutY="14.0" mnemonicParsing="false" onAction="#juniorLogout" text="Log out" />
    </children>
 </AnchorPane>

@@ -63,6 +63,10 @@ public class AdminVerifyTasksPage {
 
     public void initialize() throws Exception {
         displayTasks();
+
+        ObservableList<Task> selectedTasks = doneTasksListAdmin.getSelectionModel().getSelectedItems();
+        if(selectedTasks!=null)
+            tasksSelected=true;
     }
 
     public void approveTaskAdmin(ActionEvent actionEvent) throws Exception {
@@ -72,7 +76,8 @@ public class AdminVerifyTasksPage {
             warningVerifyAdmin.setText("");
             ObservableList<Task> selectedTasks = doneTasksListAdmin.getSelectionModel().getSelectedItems();
             for (Task t : selectedTasks) {
-
+                System.out.println(t);
+                service.removeTask(t.getId());
                 service.updateTasks(t);
             }
 

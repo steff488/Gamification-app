@@ -17,7 +17,7 @@
          <font>
             <Font size="20.0" />
          </font></Label>
-      <TextField fx:id="userField" layoutX="59.0" layoutY="111.0" promptText="Username" text="Alex">
+      <TextField fx:id="userField" layoutX="59.0" layoutY="111.0" promptText="Username" text="Admin">
          <effect>
             <InnerShadow height="10.0" radius="4.5" width="10.0">
                <color>
@@ -26,7 +26,7 @@
             </InnerShadow>
          </effect>
       </TextField>
-      <PasswordField fx:id="passField" layoutX="59.0" layoutY="159.0" promptText="Password" text="alex">
+      <PasswordField fx:id="passField" layoutX="59.0" layoutY="159.0" promptText="Password" text="admin">
          <effect>
             <InnerShadow height="10.0" radius="4.5" width="10.0">
                <color>
