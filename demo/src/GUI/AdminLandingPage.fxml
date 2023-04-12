@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AdminLandingPage">
+   <children>
+      <Button fx:id="assignTasksAdminLandingButton" layoutX="332.0" layoutY="220.0" mnemonicParsing="false" onAction="#assignTasksAdminLanding" prefHeight="46.0" prefWidth="102.0" text="Assign tasks" />
+      <Button fx:id="verifyTasksAdminLandingButton" layoutX="332.0" layoutY="302.0" mnemonicParsing="false" onAction="#verifyTasksAdminLanding" prefHeight="46.0" prefWidth="102.0" text="Verify tasks" />
+      <Button fx:id="logoutButton" layoutX="697.0" layoutY="32.0" mnemonicParsing="false" onAction="#logout" text="Log out" />
+   </children>
+</AnchorPane>

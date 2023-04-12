@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AdminAssignTasksPage">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <ListView fx:id="tasksListAdmin" layoutX="36.0" layoutY="96.0" prefHeight="155.0" prefWidth="597.0" />
+            <Button fx:id="selectTasksButtonAdmin" layoutX="666.0" layoutY="96.0" mnemonicParsing="false" onAction="#selectTasksAdmin" style="-fx-background-color: green;" text="Select" textFill="WHITE" />
+            <Label layoutX="36.0" layoutY="54.0" text="Tasks List">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="460.0" layoutY="59.0" text="Hold SHIFT/ CTRL to select more" />
+            <ListView fx:id="usersListAdmin" layoutX="36.0" layoutY="337.0" prefHeight="155.0" prefWidth="597.0" />
+            <Button fx:id="assignTasksButtonAdmin" layoutX="666.0" layoutY="337.0" mnemonicParsing="false" onAction="#assignTasksAdmin" style="-fx-background-color: red;" text="Assign tasks" textFill="WHITE" />
+            <Label layoutX="36.0" layoutY="295.0" text="Assign to">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button fx:id="assignTasksAdminBackButton" layoutY="2.0" mnemonicParsing="false" onAction="#assignTasksAdminBack" text="Back" />
+            <Button fx:id="confirmAdminButton" layoutX="666.0" layoutY="467.0" mnemonicParsing="false" onAction="#confirmAdmin" style="-fx-background-color: black;" text="Confirm" textFill="WHITE" />
+            <Label fx:id="assignTasksAdminWarning" layoutX="36.0" layoutY="512.0" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
