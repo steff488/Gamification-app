@@ -8,15 +8,16 @@ Firstly, I would like to mention that the application is not in it's final state
 1. [ Unfinished features ](#unfinished)
 2. [ Introductory notions ](#intro)
 3. [ Database description ](#db)
-4. [ Project presentations ](present)
-5. [ Thanks ](thx)
+4. [ Project setup ](#setup)
+5. [ Project presentations ](present)
+6. [ Thanks ](thx)
 
 <a name="unfinished"></a>
 ## ***Unfinished features:***
   - Tests!!
   - Commented code
   - Efficient code practice (there are some duplicate functions somewhere)
-  - Bugs testing
+  - Bug testing
   - Proper error handling (it's actually horrible in its current state :')
   - Tokens mechanism {<br>
 <p>
@@ -38,8 +39,6 @@ Firstly, I would like to mention that the application is not in it's final state
       &emsp; &emsp; (rank = Junior) userName = Alex; pass = alex <br>
 </p>
 
-  - The **demo.jar** for running the app can be found in **'Accesa-gamification-app/demo/out/artifacts/demo_jar/'**
-
 <a name="db"></a>
 ## ***Database:***
   - Each rank has special permissions (see ***Unfinished featutres***).
@@ -47,6 +46,12 @@ Firstly, I would like to mention that the application is not in it's final state
   - Each task has a difficulty which should show the number of tokens it values (it currently doesn't), a 'UserName' indicating who it has been assigned to, and a state of being 'Done'(1) or 'Not Done'(0).
 
 ![image](https://user-images.githubusercontent.com/35970991/231394015-f3896f55-0969-4db5-a7a0-bb6238af29d9.png)
+
+<a name="setup"></a>
+## ***Project setup:***
+  - If the database doesn't connect, the **sqlite-jdbc-3.40.0.0.jar** has to be added to the **project modules and libraries**. The .jar can be found in **Accesa-gamification-app\demo**
+  - I created a **demo.jar** executable (that doesn't work for me because of some weird JRE version error). The .jar for running the app can be found in **'Accesa-gamification-app/demo/out/artifacts/demo_jar/'**
+
 
 <a name="present"></a>
 ## ***Project presentation:***
@@ -82,3 +87,5 @@ The selected task's description will appear in the text area so it can be seen, 
 
 <a name="thx"></a>
 ## ***Thank you for your time!***
+
+Pls contact me for any questions at: bun.stefania@gmail.com
