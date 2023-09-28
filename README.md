@@ -1,4 +1,4 @@
-# Accesa-gamification-app
+# Gamification-app
 
 Firstly, I would like to mention that the application is not in it's final state. Due to some pretty serious medical issues I encountered, I could only work roughly around 3 days on the development of the app.
 
