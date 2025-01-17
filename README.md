@@ -31,7 +31,7 @@ Firstly, I would like to mention that the application is not in it's final state
 
 <a name="intro"></a>
 ## ***Introductory notions:***
-  - The local database is populated everytime (ONLY IF IT'S EMPTY!!!) the program is run (to avoid possible errors..)
+  - The local database is populated everytime (ONLY IF IT'S EMPTY!!!) the program is runing (to avoid possible errors..)
   - Accounts: 
 <p>
       &emsp; &emsp; (rank = Admin) userName = Admin; pass = admin <br>
